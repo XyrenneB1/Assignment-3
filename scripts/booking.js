@@ -4,7 +4,9 @@
 // When do they need to be reset or updated?
 
 let dailyRate = 35;
-
+let dayCounter = 0;
+const dayButtons = document.querySelectorAll(".day-selector li");
+const fullButt;
 /********* colour change days of week *********/
 // when the day buttons are clicked, we will apply the "clicked" class to that element, and update any other relevant variables. Then, we can recalculate the total cost.
 // added challenge: don't update the dayCounter if the same day is clicked more than once. hint: .classList.contains() might be helpful here!
