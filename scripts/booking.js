@@ -58,7 +58,6 @@ fullButton.addEventListener("click", function () {
 // when a calculation is needed, set the innerHTML of the calculated-cost element to the appropriate value
 
 function calculate() {
-    
-}
-    
+  let totalCost = dailyRate * dayCounter;
+  calculatedCostElement.innerHTML = totalCost;
 }
