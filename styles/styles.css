@@ -54,6 +54,10 @@ h2 {
   font-size: 36px;
   margin-bottom: 12px;
 }
+
+.large-text {
+  font-size: 24px;
+}
 /************* header/footer styling *************/
 
 /* TO DO:
