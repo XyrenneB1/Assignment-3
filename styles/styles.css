@@ -73,7 +73,9 @@ a {
 
 main a:hover,
 footer a:hover {
+  text-decoration: underline;
 }
+
 /************* header/footer styling *************/
 
 /* TO DO:
