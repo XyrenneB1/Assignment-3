@@ -112,6 +112,7 @@ header img {
 main {
   margin-bottom: 50px;
 }
+
 footer {
   height: 60px;
   font-weight: 200;
@@ -129,8 +130,9 @@ footer {
     - the pair of fake-buttons will be centered on the page. HINT: can calculate the required margin to make them appear to be centered.
 */
 
-.index-layout {
+.index .flex {
   display: flex;
+  align-items: flex-start;
 }
 
 .index-image {
