@@ -201,6 +201,13 @@ footer {
   margin-bottom: 12px;
 }
 
+#clear-button {
+  width: 200px;
+}
+
+.clicked {
+  background-color: mustard yellow;
+}
 /************* contact page *************/
 /* TO DO:
     - the main section of the .contact page will be 420px tall, and centered.
