@@ -265,3 +265,8 @@ button {
   margin-bottom: 24px;
   width: 100%;
 }
+
+#submit-button {
+  width: 300px;
+  margin-left: 174px;
+}
