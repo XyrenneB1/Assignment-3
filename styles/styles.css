@@ -144,29 +144,23 @@ footer {
   margin-bottom: 50px;
 }
 
-.index-text {
-  flex: 1;
-}
-
-.index-page h2 {
+.index h2 {
   line-height: 36px;
 }
 
-.index-page p {
+.index p {
   margin-bottom: 12px;
 }
 
-.index-page .fake-button {
+.index .fake-button {
   width: 250px;
-  margin-right: 150px;
 }
 
-.button-container {
-  margin-left: 150px;
-  display: flex;
+.index .flex:last-child {
+  justify-content: center;
   gap: 150px;
+  margin-top: 24px;
 }
-
 /************* bookings page *************/
 
 /* TO-DO:
@@ -189,6 +183,9 @@ footer {
 
 .day-selectors {
   margin-bottom: 12px;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
 }
 
 .day-list li {
