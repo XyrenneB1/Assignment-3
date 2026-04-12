@@ -97,6 +97,10 @@ header,
 footer {
   background-color: mustard yellow;
 }
+
+header {
+  height: 150px;
+}
 /************* index page *************/
 
 /* TO-DO: 
