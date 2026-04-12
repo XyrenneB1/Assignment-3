@@ -93,6 +93,10 @@ blue-hover:hover {
     - the footer will be 60px tall, have a font-weight of 200, and the text within will be centered vertically and horizontally.
 */
 
+header,
+footer {
+  background-color: mustard yellow;
+}
 /************* index page *************/
 
 /* TO-DO: 
