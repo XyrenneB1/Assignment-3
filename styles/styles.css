@@ -135,6 +135,9 @@ footer {
   align-items: flex-start;
 }
 
+.about-us {
+  flex: 1;
+}
 .index-image {
   width: 300px;
   margin-left: 25px;
