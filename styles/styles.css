@@ -95,14 +95,12 @@ blue-hover:hover {
 
 header,
 footer {
-  background-color: mustard yellow;
+  background-color: #e5af42;
 }
 
 header {
   height: 150px;
-  background-color: mustard yellow;
-  display: flex;
-  align-items: center;
+  margin-bottom: 25px;
 }
 
 header img {
