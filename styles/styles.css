@@ -108,6 +108,14 @@ header img {
   width: 100px;
   margin: 25px 0 25px 25px;
 }
+
+footer {
+  height: 60px;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /************* index page *************/
 
 /* TO-DO: 
