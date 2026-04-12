@@ -20,7 +20,7 @@ dayButtons.forEach((button) => {
     if (!this.classlist.contains("clicked")) {
       this.classlist.add("clicked");
       dayCounter++;
-      calculatedCost();
+      calculate();
     }
   });
 });
@@ -28,14 +28,19 @@ dayButtons.forEach((button) => {
 /********* clear days *********/
 // when the clear-button is clicked, the "clicked" class is removed from all days, any other relevant variables are reset, and the calculated cost is set to 0.
 
-clearButton.addEventListener('click', function () {
-    dayButtons.forEach(button => {
-        button.classlist.remove('clicked');
-    });
-    dayCounter = 0;
+clearButton.addEventListener("click", function () {
+  dayButtons.forEach((button) => {
+    button.classlist.remove("clicked");
+  });
+  dayCounter = 0;
+  calculate();
+});
 /********* change rate *********/
 // when the half-day button is clicked, set the daily rate to $20, add the "clicked" class to the "half" element, remove it from the "full" element, and recalculate the total cost.
 
+halfButton.addEventListener("click", function () {
+  dailyRate = 20;
+});
 // when the full-day button is clicked, the daily rate is set back to $35, the clicked class is added to "full" and removed from "half", and the total cost is recalculated.
 
 /********* calculate *********/
