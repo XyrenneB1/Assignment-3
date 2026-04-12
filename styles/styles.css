@@ -223,3 +223,17 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+.labels-column {
+  width: 150px;
+  text-align: right;
+}
+
+.input-column {
+  width: 300px;
+}
+
+.contact-container {
+  display: flex;
+  gap: 24px;
+}
