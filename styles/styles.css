@@ -182,6 +182,14 @@ footer {
 .day-selectors {
   margin-bottom: 12px;
 }
+
+.day-list li {
+  margin-bottom: 20px;
+  width: 60px;
+  list-style: none;
+  border: 1px solid black;
+  display: inline-block;
+}
 /************* contact page *************/
 /* TO DO:
     - the main section of the .contact page will be 420px tall, and centered.
