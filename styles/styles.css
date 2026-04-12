@@ -237,3 +237,18 @@ footer {
   display: flex;
   gap: 24px;
 }
+
+textarea {
+  height: 150px;
+}
+
+input,
+textarea,
+button {
+  font-family: "montserrat", sans-serif;
+  line-height: 24px;
+  font-size: 16px;
+  border: 1px solid black;
+  margin-bottom: 24px;
+  width: 100%;
+}
