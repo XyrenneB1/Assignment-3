@@ -214,7 +214,7 @@ footer {
 }
 
 .clicked {
-  background-color: mustard yellow;
+  background-color: #e5af42;
 }
 
 /************* contact page *************/
@@ -241,9 +241,10 @@ footer {
   width: 300px;
 }
 
-.contact-container {
-  display: flex;
+.contact .flex {
+  justify-content: flex-end;
   gap: 24px;
+  margin-bottom: 24px;
 }
 
 textarea {
