@@ -211,6 +211,7 @@ footer {
 #clear-button {
   width: 200px;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .clicked {
@@ -230,6 +231,7 @@ footer {
   height: 420px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .contact form {
@@ -238,7 +240,9 @@ footer {
 }
 
 .contact .flex {
-  justify-content: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   gap: 24px;
   margin-bottom: 24px;
 }
