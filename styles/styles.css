@@ -143,6 +143,10 @@ footer {
 .index-page h2 {
   line-height: 36px;
 }
+
+.index-page p {
+  margin-bottom: 12px;
+}
 /************* bookings page *************/
 
 /* TO-DO:
