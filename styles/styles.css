@@ -248,6 +248,9 @@ footer {
   text-align: right;
 }
 
+.contact input .contact textarea {
+  width: 300px;
+}
 textarea {
   height: 150px;
 }
