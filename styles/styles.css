@@ -100,6 +100,13 @@ footer {
 
 header {
   height: 150px;
+  margin-bottom: 25px;
+}
+
+header img {
+  height: 100px;
+  width: 100px;
+  margin: 25px 0 25px 25px;
 }
 /************* index page *************/
 
