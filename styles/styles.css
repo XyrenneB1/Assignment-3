@@ -76,6 +76,13 @@ footer a:hover {
   text-decoration: underline;
 }
 
+.fake-button:hover,
+blue-hover:hover {
+  text-decoration: underline;
+  background-color: cornflowerblue;
+  color: white;
+  cursor: pointer;
+}
 /************* header/footer styling *************/
 
 /* TO DO:
