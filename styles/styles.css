@@ -42,6 +42,9 @@ body {
         - change the cursor to pointer.
 */
 
+h1 {
+  font-size: 48px;
+}
 /************* header/footer styling *************/
 
 /* TO DO:
