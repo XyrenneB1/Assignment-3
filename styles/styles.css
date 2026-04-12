@@ -58,6 +58,13 @@ h2 {
 .large-text {
   font-size: 24px;
 }
+
+.fake-button {
+  background-color: mustard yellow;
+  text-align: center;
+  line-height: 3;
+  border: 1px solid black;
+}
 /************* header/footer styling *************/
 
 /* TO DO:
