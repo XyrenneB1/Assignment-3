@@ -44,6 +44,10 @@ body {
 
 h1 {
   font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 /************* header/footer styling *************/
 
