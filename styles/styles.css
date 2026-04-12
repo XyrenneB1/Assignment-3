@@ -60,7 +60,7 @@ h2 {
 }
 
 .fake-button {
-  background-color: mustard yellow;
+  background-color: #e5af42;
   text-align: center;
   line-height: 3;
   border: 1px solid black;
@@ -79,7 +79,7 @@ footer a:hover {
 .fake-button:hover,
 blue-hover:hover {
   text-decoration: underline;
-  background-color: cornflowerblue;
+  background-color: #4278e5;
   color: white;
   cursor: pointer;
 }
