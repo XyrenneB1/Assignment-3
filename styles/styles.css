@@ -210,6 +210,7 @@ footer {
 
 #clear-button {
   width: 200px;
+  margin: 0 auto;
 }
 
 .clicked {
