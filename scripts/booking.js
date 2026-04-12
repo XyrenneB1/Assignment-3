@@ -5,6 +5,7 @@
 
 let dailyRate = 35;
 let dayCounter = 0;
+
 const dayButtons = document.querySelectorAll(".day-selector li");
 const fullButton = document.getElementById("full");
 const halfButton = document.getElementById("half");
@@ -17,8 +18,8 @@ const calculatedCost = document.getElementById("calculated-cost");
 
 dayButtons.forEach((button) => {
   button.addEventListener("click", function () {
-    if (!this.classlist.contains("clicked")) {
-      this.classlist.add("clicked");
+    if (!this.classList.contains("clicked")) {
+      this.classList.add("clicked");
       dayCounter++;
       calculate();
     }
@@ -30,7 +31,7 @@ dayButtons.forEach((button) => {
 
 clearButton.addEventListener("click", function () {
   dayButtons.forEach((button) => {
-    button.classlist.remove("clicked");
+    button.classList.remove("clicked");
   });
   dayCounter = 0;
   calculate();
@@ -40,8 +41,8 @@ clearButton.addEventListener("click", function () {
 
 halfButton.addEventListener("click", function () {
   dailyRate = 20;
-  halfButton.classlist.add("clicked");
-  fullButton.classlist.remove("clicked");
+  halfButton.classList.add("clicked");
+  fullButton.classList.remove("clicked");
   calculate();
 });
 
@@ -49,8 +50,8 @@ halfButton.addEventListener("click", function () {
 
 fullButton.addEventListener("click", function () {
   dailyRate = 35;
-  fullButton.classlist.add("clicked");
-  halfButton.classlist.remove("clicked");
+  fullButton.classList.add("clicked");
+  halfButton.classList.remove("clicked");
   calculate();
 });
 
@@ -59,5 +60,5 @@ fullButton.addEventListener("click", function () {
 
 function calculate() {
   let totalCost = dailyRate * dayCounter;
-  calculatedCostElement.innerHTML = totalCost;
+  calculatedCost.innerHTML = totalCost;
 }
