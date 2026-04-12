@@ -147,6 +147,11 @@ footer {
 .index-page p {
   margin-bottom: 12px;
 }
+
+.index-page .fake-button {
+  width: 250px;
+  margin-right: 150px;
+}
 /************* bookings page *************/
 
 /* TO-DO:
