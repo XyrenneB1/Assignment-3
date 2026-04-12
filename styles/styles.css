@@ -232,6 +232,10 @@ footer {
   justify-content: center;
 }
 
+.contact form {
+  width: 475px;
+  margin: 0 auto;
+}
 .labels-column {
   width: 150px;
   text-align: right;
