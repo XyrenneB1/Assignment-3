@@ -190,6 +190,11 @@ footer {
   border: 1px solid black;
   display: inline-block;
 }
+
+.small-button {
+  border: 1px solid black;
+  padding: 5px;
+}
 /************* contact page *************/
 /* TO DO:
     - the main section of the .contact page will be 420px tall, and centered.
