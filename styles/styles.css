@@ -136,6 +136,13 @@ footer {
   margin-bottom: 50px;
 }
 
+.index-text {
+  flex: 1;
+}
+
+.index-page h2 {
+  line-height: 36px;
+}
 /************* bookings page *************/
 
 /* TO-DO:
