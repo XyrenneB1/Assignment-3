@@ -243,8 +243,9 @@ footer {
   margin-bottom: 24px;
 }
 
-textarea {
-  height: 150px;
+.contact label {
+  width: 150px;
+  text-align: right;
 }
 
 input,
