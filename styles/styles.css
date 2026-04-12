@@ -126,6 +126,16 @@ footer {
     - the pair of fake-buttons will be centered on the page. HINT: can calculate the required margin to make them appear to be centered.
 */
 
+.index-layout {
+  display: flex;
+}
+
+.index-image {
+  width: 300px;
+  margin-left: 25px;
+  margin-bottom: 50px;
+}
+
 /************* bookings page *************/
 
 /* TO-DO:
