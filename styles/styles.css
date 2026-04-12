@@ -241,7 +241,7 @@ footer {
 
 .contact .flex {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: flex-start;
   gap: 24px;
   margin-bottom: 24px;
@@ -250,11 +250,20 @@ footer {
 .contact label {
   width: 150px;
   text-align: right;
+  white-space: nowrap;
+  line-height: 24px;
+}
+
+.contact h2 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 24px;
 }
 
 .contact input .contact textarea {
   width: 300px;
 }
+
 textarea {
   height: 150px;
 }
@@ -273,4 +282,7 @@ button {
 #submit-button {
   width: 300px;
   margin-left: 174px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
